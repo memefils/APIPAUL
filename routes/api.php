@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ClientController;
-use App\Http\Controllers\FactureController;
+use App\Http\Controllers\Api\ClientController;
+use App\Http\Controllers\Api\FactureController;
 
 Route::apiResource('clients', ClientController::class);
 Route::apiResource('factures', FactureController::class);
